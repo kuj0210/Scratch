@@ -3,7 +3,7 @@
 ## 모양사용해보기
 
 
-## 새로운 이미지 추가해보기
+### 새로운 이미지 추가 하고 캐릭터 바꿔보기
   
 ##### 1.모양 클릭
 스크립트 옆에 모양 탭을 눌러주세요
@@ -21,3 +21,5 @@
   
 #####  5. 올라온 이미지중에 선택하면 원하는 모양으로 바뀌어요
 <image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.2%EB%8B%A4%EB%A5%B8%EB%AA%A8%EC%96%91%EC%84%A0%ED%83%9D.PNG>
+
+### 화면에 새로운 캐릭터 등장시키기
