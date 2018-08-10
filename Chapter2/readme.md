@@ -34,7 +34,7 @@
   
 #### 3. 위치 바꿔 보기
 <image src= https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.5%EC%BA%90%EB%A6%AD%ED%84%B0%EC%B6%94%EA%B0%80%EC%99%84%EB%A3%8C.png>
-선택한 캐릭터가 화면에 추가되었어요. 음... 겹쳐있으니깐 보기 안좋네요 새로 추가된 친구를 마우스로 눌러서 이동시켜보세요
+선택한 캐릭터가 화면에 추가되었어요. 음... 겹쳐있으니깐 보기 안좋네요 새로 추가된 친구를 마우스로 눌러서 이동시켜보세요.
   
 #### 4. 결과확인하기
 <image src =https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.6%EA%B7%B8%EB%A6%BC%ED%81%B4%EB%A6%AD%EC%9D%B4%EB%8F%99.png>
