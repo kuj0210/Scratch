@@ -1,11 +1,12 @@
 # 모양, 스크립트 사용해보기
 
 ## 모양사용해보기
-<image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.1%EA%B8%B0%EB%B3%B8%EB%AA%A8%EC%96%91.PNG><br/>
+
 
 ## 새로운 이미지 추가해보기
   
 ##### 1.모양 클릭
+<image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.1%EA%B8%B0%EB%B3%B8%EB%AA%A8%EC%96%91.PNG><br/>
 ##### 2.빨간색 박스의 모양 클릭
 이미 스크래치가 많은 그림을 그려뒀어요! 그려진 그림중에 선택해볼게요
 ##### 3.이미지 고르기
