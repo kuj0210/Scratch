@@ -23,5 +23,11 @@
 <image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.2%EB%8B%A4%EB%A5%B8%EB%AA%A8%EC%96%91%EC%84%A0%ED%83%9D.PNG>
 
 ### 화면에 새로운 캐릭터 등장시키기
+
+##### 1.빨간색 상자 누르기
+<image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.4%EC%BA%90%EB%A6%AD%ED%84%B0%EC%B6%94%EA%B0%80.png>
+빨간색 상자는 이미 스크래치가 그려놓은 그림을 가져올 수 있어요
+
+##### 2.캐릭터선택
 <image src =https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.3%EC%BA%90%EB%A6%AD%ED%84%B0%EC%84%A0%ED%83%9D.png>
-  
+원하는 캐릭터를 선택해보세요  
