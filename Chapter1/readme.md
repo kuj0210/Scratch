@@ -41,6 +41,7 @@
 #### 2.1 전체 화면 및 스크립트 설명 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.1%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%84%A4%EB%AA%85.PNG> <br>
 <br/><br/>
+[색상 바꿀 글씨](#FF0000) 
   
 #### 2.2 모양 설명 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.2%EB%AA%A8%EC%96%91%EC%84%A4%EB%AA%85.PNG> <br>
