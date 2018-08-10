@@ -35,7 +35,20 @@
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.5%ED%95%9C%EA%B8%80%EC%99%84%EB%A3%8C.PNG> <br>
 언어중 한국어를 선택해주세요 
   
-  
+<br/><br/>
+#### 2 화면 설명 
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2%ED%99%94%EB%A9%B4%EC%84%A4%EB%AA%85.PNG> <br>  
+
+##### 붉은색 박스
+프로그램결과 확인창
+##### 보라색 박스
+프로그램을 실행, 정지
+##### 파란색 박스
+붉은색 박스의 배경화면을 설정, 녹색박스의 모양에서 추가적으로 가져오거나 수정할 수 있다
+##### 주황색 박스
+붉은색 박스의 캐릭터를 설정, 녹색박스의 모양에서 추가적으로 가져오거나 수정할 수 있다
+##### 녹색박스
+실제로 프로그래밍을 하거나 필요한 자료를 정리, 편집하는 곳
   
 <br/><br/>
 #### 2.1 스크립트 설명 
@@ -46,6 +59,8 @@
 스크립트라는 것은 움직이거나 입력을 받거나 말을 하더나 등 내가 컴퓨터(주황색박스)에게 시킬수 있는 것
 
 ##### 녹색박스 
+프로그래밍하기 좋게 필요한 자료들을 블록으로 만들어서 꺼내올 수 있게 해둔곳
+
 동작 : 위치 이동관련 기능들 <br/>
 형태 : 그림,회전 관련 기능들 <br/>
 소리 : 음성재생관련 기능들 <br/>
@@ -62,7 +77,19 @@
 #### 2.2 모양 설명 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.2%EB%AA%A8%EC%96%91%EC%84%A4%EB%AA%85.PNG> <br>
 <br/><br/>
-  
+
+##### 파란색박스 
+새로운 그림을 그리거나 저장된 그림을 꺼내오는 곳
+
+##### 녹색박스 
+파란색 박스에 있는 그림을 편집하는 곳
+
 #### 2.3 소리설명
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.3%EC%86%8C%EB%A6%AC%EC%84%A4%EB%AA%85.PNG> <br>
 
+
+##### 빨간색 박스 
+새로운 소리를 녹음하거나 파일을 올려두는곳
+
+##### 녹색박스 
+파란색 박스에 있는 그림을 편집하는 곳
