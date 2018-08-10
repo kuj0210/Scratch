@@ -23,3 +23,5 @@
 <image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.2%EB%8B%A4%EB%A5%B8%EB%AA%A8%EC%96%91%EC%84%A0%ED%83%9D.PNG>
 
 ### 화면에 새로운 캐릭터 등장시키기
+<image src =https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.3%EC%BA%90%EB%A6%AD%ED%84%B0%EC%84%A0%ED%83%9D.png>
+  
