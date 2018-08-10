@@ -3,7 +3,7 @@
 ## 모양사용해보기
 
 
-### 새로운 이미지 추가 하고 캐릭터 바꿔보기
+### 1 새로운 이미지 추가 하고 캐릭터 바꿔보기
   
 #### 1.모양 클릭
 스크립트 옆에 모양 탭을 눌러주세요
@@ -22,7 +22,7 @@
 ####  5. 올라온 이미지중에 선택하면 원하는 모양으로 바뀌어요
 <image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.2%EB%8B%A4%EB%A5%B8%EB%AA%A8%EC%96%91%EC%84%A0%ED%83%9D.PNG>
 
-### 화면에 새로운 캐릭터 등장시키기
+### 2화면에 새로운 캐릭터 등장시키기
 
 #### 1.빨간색 상자 누르기
 <image src = https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.4%EC%BA%90%EB%A6%AD%ED%84%B0%EC%B6%94%EA%B0%80.png>
@@ -47,3 +47,6 @@
   
 #### 6. 지워진 결과
 <image src =https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter2/IMGAE/1.8%EC%82%AD%EC%A0%9C%EC%99%84%EB%A3%8C.PNG>
+ 
+ 
+### 3. 캐릭터의 동작을 프로그래밍 해보기 (스크립트 작성해보기)
