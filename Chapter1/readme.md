@@ -8,6 +8,9 @@
 3.스크래치 다운로드 홈페이지 https://scratch.mit.edu/download
 
 ### 1.1 설치방법
-
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
 
 1과 2의 링크가 안된다면 3의 페이지에서 직접 설치
