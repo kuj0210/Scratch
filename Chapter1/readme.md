@@ -1,4 +1,6 @@
 # 스크래치 설치하기, 알아보기
+스크래치는 MIT 공대에서 만든 프로그래밍을 하기 쉬운 도구에요. 스크립트에서 블록형태의 기능들을 마우스로 끌어서 놓는 방식으로 조합하여 프로그램의 결과를 고양이가 움직이면서 볼 수 있게 해줘요. 1의 설치하기를 참고하시고 2의 알아보기는(생략해도 무관) 간단하게 읽어본뒤에 다음 Chapter로 넘어가세요
+1의 스크레
 
 ## 1.스크래치 설치하기
 
@@ -7,7 +9,7 @@
 2.스크래치 다운로드 링크 https://scratch.mit.edu/scratchr2/static/sa/Scratch-461.exe <br/>
 3.스크래치 다운로드 홈페이지 https://scratch.mit.edu/download
 
-### 1 설치방법
+
 #### 1.1설치 시 설정
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.2%20%EC%84%A4%EC%B9%98.PNG> <br>
   
@@ -34,6 +36,8 @@
 #### 1.5 한글찾기 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.5%ED%95%9C%EA%B8%80%EC%99%84%EB%A3%8C.PNG> <br>
 언어중 한국어를 선택해주세요 
+
+### 알아보기
   
 <br/><br/>
 #### 2 화면 설명 
