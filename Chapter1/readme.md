@@ -38,10 +38,27 @@
   
   
 <br/><br/>
-#### 2.1 전체 화면 및 스크립트 설명 
+#### 2.1 스크립트 설명 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.1%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%84%A4%EB%AA%85.PNG> <br>
 <br/><br/>
-<span style="color:red">빨간색 글자입니다.</span>
+
+##### 붉은색 박스
+스크립트라는 것은 움직이거나 입력을 받거나 말을 하더나 등 내가 컴퓨터(주황색박스)에게 시킬수 있는 것
+
+##### 녹색박스 
+동작 : 위치 이동관련 기능들 <br/>
+형태 : 그림,회전 관련 기능들 <br/>
+소리 : 음성재생관련 기능들 <br/>
+펜 : 화면에 그리기관련 기능들 <br/>
+이벤트 : ~할 때 를 표현 할 수 있는 기능들<br/>
+제어 : ~라면, ~초 기다려, ~번 반복해 와 같은 기능들<br/>
+감지 : 제어와 함깨 사용, ~라면에서 '~'를 지정하는 블록들<br/>
+연산 : 더하기 빼기등을 수행하는 블록<br/>
+감지 : 제어와 함깨 사용, ~라면에서 '~'를 지정하는 블록들<br/>
+추가, 데이터: 사용자 지정 값이나 블록을 만드는 곳 <br/>
+
+##### 하늘색 박스
+동작을 수행할 이미지를 선택하는 곳
   
 #### 2.2 모양 설명 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.2%EB%AA%A8%EC%96%91%EC%84%A4%EB%AA%85.PNG> <br>
