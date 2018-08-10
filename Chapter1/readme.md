@@ -11,7 +11,7 @@
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.2%20%EC%84%A4%EC%B9%98.PNG> <br>
 #### 1, 2를 순서대로 설치해주세요
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
-### 만약 설치가 안된다면 3번 링크로 들어가서 직접 설치 해주세요
+#### 만약 설치가 안된다면 3번 링크로 들어가서 직접 설치 해주세요
 <br><br><br>
 
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
