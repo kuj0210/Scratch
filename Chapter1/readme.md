@@ -26,26 +26,26 @@
 
   
   <br/><br/>
-#### 1.3한글설정   
+#### 1.4한글설정   
 <image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.4%ED%95%9C%EA%B8%80%EC%84%A4%EC%A0%95.PNG> <br>
   지구본 모양의 버튼을 눌러주세요
   
 <br/><br/>
-#### 1.4 한글찾기 
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.4%ED%95%9C%EA%B8%80%EC%84%A4%EC%A0%95.PNG> <br>
+#### 1.5 한글찾기 
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.5%ED%95%9C%EA%B8%80%EC%99%84%EB%A3%8C.PNG> <br>
 언어중 한국어를 선택해주세요 
   
   
   
 <br/><br/>
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+#### 2.1 전체 화면 및 스크립트 설명 
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.1%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%84%A4%EB%AA%85.PNG> <br>
 <br/><br/>
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+  
+#### 2.2 모양 설명 
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.2%EB%AA%A8%EC%96%91%EC%84%A4%EB%AA%85.PNG> <br>
 <br/><br/>
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
-<br/><br/>
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
-<br/><br/>
-<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/1.1%EC%84%A4%EC%B9%98.PNG> <br>
+  
+#### 2.3 소리설명
+<image src=https://github.com/kuj0210/coding-for-Elementary-student/blob/master/Chapter1/IMAGE/2.3%EC%86%8C%EB%A6%AC%EC%84%A4%EB%AA%85.PNG> <br>
 
-1과 2의 링크가 안된다면 3의 페이지에서 직접 설치
