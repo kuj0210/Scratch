@@ -1,8 +1,2 @@
-<script>
-var score =0
-
-function alertDialogBox() {
-
-        alert("확인을 누를 때까지 다른 작업을 할 수 없어요!");
-}
-</script>
+var name = prompt("이름을 입력하세요.");
+document.write("<h1>" + name + "님, 어서오세요</h1>");
