@@ -18,7 +18,7 @@
   for (var i =0; i<=10 ; i++){
    tnum[i] = Math.floor(Math.random() * (randMax)) +randMin
    if (tnum[i] == 0){
-        document.write("0발생 변경!!!!!->");
+        //document.write("0발생 변경!!!!!->");
         tnum[i]=  Math.floor(Math.random() *7) -10
    }
     // document.write(tnum[i]+"<br/>");
@@ -26,7 +26,7 @@
   
   for (var i = 0; i<10 ; i+=2)
   {
-   var input = confirm("( "+tnum[i]+" ) +( "+tnum[i+1]+" ) =  ?");
+   var input = prompt("( "+tnum[i]+" ) +( "+tnum[i+1]+" ) =  ?");
    alert(input);
   }
   
