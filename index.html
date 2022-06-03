@@ -21,16 +21,20 @@
         //document.write("0발생 변경!!!!!->");
         tnum[i]=  Math.floor(Math.random() *7) -10
    }
-   if (tnum[i]>0){
-    tnum[i] ="+"+  tnum[i];
-   }
-   
+
     // document.write(tnum[i]+"<br/>");
   }
   
-  for (var i = 0; i<10 ; i+=2)
-  {
-   var input = prompt("( "+tnum[i]+" ) +( "+tnum[i+1]+" ) =  ?");
+  var str;;
+  var input;
+  var temp1 , temp2;
+  for (var i = 0; i<10 ; i+=2){
+   if(tnum[i]>0){temp1="+"+tnum[i];}else{temp1=tnum[i];}
+   if(tnum[i+1]>0){temp2="+"+tnum[i+1];}else{temp2=tnum[i+1];} 
+   
+    str = "( "+temp1+ " ) "  + "+"+ " ( "+temp2+ " ) ="
+    input =prompt(str);
+   
    alert(input);
   }
   
