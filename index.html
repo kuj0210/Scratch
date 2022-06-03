@@ -12,9 +12,11 @@
 <body>
  게더타운 퀴즈입니다!!!!!!.
  <script>
+  var randMax = 30;
+  var randMin = 30
   var tnum = new Array();
   for (var i =0; i<=10 ; i++){
-   tnum[i] = Math.floor(Math.random() * (30)) -20
+   tnum[i] = Math.floor(Math.random() * (randMax)) -randMin
    if (tnum[i] == 0){
         document.write("0발생 변경!!!!!->");
         tnum[i]=  Math.floor(Math.random() *7) -10
