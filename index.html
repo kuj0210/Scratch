@@ -15,6 +15,7 @@
   var randMax = 10;
   var randMin = (-1)*randMax/2;
   var tnum = new Array();
+  var tans = new Array();
   for (var i =0; i<=10 ; i++){
    tnum[i] = Math.floor(Math.random() * (randMax)) +randMin
    if (tnum[i] == 0){
@@ -32,9 +33,11 @@
   for (var i = 0; i<10 ; i+=2){
    if(tnum[i]>0){temp1="+"+tnum[i];}else{temp1=tnum[i];}
    if(tnum[i+1]>0){temp2="+"+tnum[i+1];}else{temp2=tnum[i+1];} 
+   tans[j-1]=temp1+temp2;
    
-    str = "<문제"+(j)+"> ( "+temp1+ " ) "  + "+"+ " ( "+temp2+ " ) = <br/>"
-    document.write(str);
+   str = "<문제"+(j)+"> ( "+temp1+ " ) "  + "+"+ " ( "+temp2+ " ) = "+tans[j-1]+"<br/>"
+   
+   document.write(str);
    j++;
    
   }
