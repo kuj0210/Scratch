@@ -34,8 +34,12 @@
    if(tnum[i]>0){temp1="+"+tnum[i];}else{temp1=tnum[i];}
    if(tnum[i+1]>0){temp2="+"+tnum[i+1];}else{temp2=tnum[i+1];} 
    tans[j-1]=tnum[i]+tnum[i+1]   
+   
+   
    str = "<문제"+(j)+"> ( "+temp1+ " ) "  + "+"+ " ( "+temp2+ " ) = "+tans[j-1]+"<br/>"
-   document.write(str);
+   document.write(str+"<input type="text" name="username"><br/>");
+   //document.write(str);
+
    j++;
    
   }
