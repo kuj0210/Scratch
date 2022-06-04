@@ -30,16 +30,19 @@
   var input;
   var temp1 , temp2;
   var j=1;
+  var flist =  new Array();
   for (var i = 0; i<10 ; i+=2){
    if(tnum[i]>0){temp1="+"+tnum[i];}else{temp1=tnum[i];}
    if(tnum[i+1]>0){temp2="+"+tnum[i+1];}else{temp2=tnum[i+1];} 
    tans[j-1]=tnum[i]+tnum[i+1]   
    
    
+   
    str = "<문제"+(j)+"> ( "+temp1+ " ) "  + "+"+ " ( "+temp2+ " ) = "+tans[j-1]+"<br/>"
-  
+
    document.write(str);
-   "<input type="text" name="username"><br/>"
+   flist[j-1]=document.createElement("INPUT");
+   flist[j-1].x.setAttribute("type", "text");
 
    j++;
    
