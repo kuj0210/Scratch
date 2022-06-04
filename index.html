@@ -54,10 +54,11 @@
                 j++;
             }
         }
-        function printQandFBox( fromList,str,max) {
-            
-            for (var i = 0; i < max; i ++) {
-                document.write(str[i]);//문장출력
+        function printQandFBox(fromList, str, max) {
+            document.styleSheets
+            for (var i = 0; i < max; i++) {
+                document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font>");
+                
                 formList[i] = document.createElement("INPUT");
                 formList[i].setAttribute("type", "text");
                 formList[i].setAttribute("name", "");
@@ -117,7 +118,8 @@
             document.write("종합점수: " + tsum + "<br/>");
             new removeALL(formList, sbtn);
             tsum = 0;
-        });
+        }
+        );
 
       
 
