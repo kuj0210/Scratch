@@ -43,12 +43,9 @@ function printQandFBox(inputList, str, max) {
     document.write("<form id=\'QNAFORM\' method=\'get\'>");
     for (var i = 0; i < max; i++) {
         document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font> ");
-
         document.write("<input id=ans" + i + "  name=ans" + i + "> <br/> <br/>");
-
     }
     document.write("</form>");
-
     document.write("<br/>");
 
 }
@@ -86,13 +83,13 @@ sbtn.appendChild(btnText);
 document.body.appendChild(sbtn);
 document.write("<br/><br/>");
 
-//리스너등록
-sbtn.addEventListener("click", function () {
-    //alert("버튼클릭이벤트발생");
+
+function btnL() {
+    //console.log("버튼클릭이벤트발생");
     for (i = 0; i < QMax; i++) {//getitem
         console.log("ans" + i);
         console.log(aList[i] + i);
-        aList[i] = parseInt( document.getElementById("ans" + i).value);
+        aList[i] = parseInt(document.getElementById("ans" + i).value);
         if (aList[i] == null) { console.log("읽기실패" + i); }
         console.log("res ans" + i);
         console.log(aList[i] + i);
@@ -109,4 +106,6 @@ sbtn.addEventListener("click", function () {
     tsum = 0;
     new removeALL(aList, sbtn);
 }
-);
+
+//리스너등록
+sbtn.addEventListener("click", btnL);
