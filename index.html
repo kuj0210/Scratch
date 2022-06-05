@@ -106,14 +106,11 @@
         sbtn.addEventListener("click", function () {
             //alert("버튼클릭이벤트발생");
             for (i = 0; i < QMax; i++) {//getitem
-                console.log("ㅇㅇ" + i);
+                console.log("ans" + i);
                 console.log(aList[i] + i);
                 aList[i] = (document.getElementById("ans" + i));
-                if (aList[i] == null) {
-                    console.log("읽기실패" + i);
-
-                }
-                console.log("ㄴㄴ" + i);
+                if (aList[i] == null) {console.log("읽기실패" + i);}
+                console.log("res ans" + i);
                 console.log(aList[i] + i);
 
                 document.write((i + 1) + "번 답:" + aList[i]);
@@ -121,9 +118,7 @@
                     document.write("   정답O<br/>");
                     tsum += point;
                 }
-                else {
-                    document.write("   오답X →  답:"+tans[i]+"<br/>");
-                }
+                else {document.write("   오답X →  답:"+tans[i]+"<br/>");}
             }
             document.write("종합점수: " + tsum + "<br/>");
             
