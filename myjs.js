@@ -13,7 +13,7 @@ function makeNewRandNum(numList, num){
 
 }
 
-function makeQuiz(randNumList, len ,quizStringList,ansList){
+function makeQuiz(randNumList, len ,quizStringList){
     var j=0;
     var temp1="";
     var temp2="";
@@ -52,6 +52,33 @@ for(var i=0 ; i<5; i++){
     Q[i] = document.getElementById(key);
     Q[i].innerText= quizStringList[i];
 }
+
+
+
+var obj = document.createElement("input");
+obj.type ="button";
+obj.id ="mbtn";
+obj.value="제출"
+obj.onclick = function (){
+    console.log("처리시작");
+    var A=new Array();
+    var temp;
+    for(var i=0 ; i<5; i++){
+        var key ="A"+(i+1).toString(); 
+        temp= document.getElementById(key);
+        A[i]=temp.value;
+        console.log(A[i]);
+        
+    }
+    console.log("처리끝");
+    
+};
+ 
+var fm= document.getElementById("QNA");
+fm.appendChild(obj);
+
+
+
 
 
 
