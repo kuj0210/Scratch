@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <script>      
+        function btnc(bt){
+            var A=new Array();
+            var temp;
+            for(var i=0 ; i<5; i++){
+                var key ="A"+(i+1).toString(); 
+                temp= document.getElementById(key);
+                A[i]=temp.value;
+                console.log(A[i]);
+            }
+            console.log("처리끝");
+            bt.remove();
+        }      
+    </script>
 </head>
 <body>
+
     80점 이상 득점하면 6자리의 비밀번호 중 랜덤한 위치의 값이 2개 공개됩니다!<BR/>
     <form id="QNA" >
         <label id="l1">Test1</label><br/>
@@ -24,7 +41,7 @@
         <label id="l5">Test1</label><br/>
         <input type="text" name="Q5" id="A5"><br/>
         
-        <input type="submit" value="제출">
+        <input type="button" name="btn" id="btn1" value="제출" onclick="btnc(this)">
     </form>
 
     <script type="text/javascript" src="myjs.js"></script> 
