@@ -55,13 +55,13 @@
             }
         }
         function printQandFBox(fromList, str, max) {
-            
+           
             for (var i = 0; i < max; i++) {
                 document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font>");
                 
                 formList[i] = document.createElement("INPUT");
                 formList[i].setAttribute("type", "text");
-                formList[i].setAttribute("name", "");
+                formList[i].setAttribute("name", "ans" + i);
                 formList[i].setAttribute("id", "ans" + i);//폼생성완료
                 document.body.appendChild(formList[i])//폼등록
                 document.write("<br/><br/>");
