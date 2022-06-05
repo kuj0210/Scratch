@@ -53,7 +53,10 @@ for(var i=0 ; i<5; i++){
     Q[i].innerText= quizStringList[i];
 }
 
-function gradBtn(){
+
+
+var btn = document.getElementById("btn");
+btn.addEventListener('click',function gradBtn(){
     var A=new Array();
     var temp;
     for(var i=0 ; i<5; i++){
@@ -66,8 +69,5 @@ function gradBtn(){
     document.getElementById("btn").remove();
   
     
-}
-
-var btn = document.getElementById("btn");
-btn.addEventListener('click',gradBtn);
+});
 
