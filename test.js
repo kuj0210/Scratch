@@ -39,12 +39,13 @@ function makeAList(tans, tnum, max) {
     }
 }
 function printQandFBox(inputList, str, max) {
-
+    var id =0
     document.write("<form id=\'QNAFORM\' method=\'get\'>");
     for (var i = 0; i < max; i++) {
-        console.log("추가" + "<input id=ans" + i + "  name=ans" + i + "> <br/> <br/>");
+        id +=i
+        console.log("추가" + "<input id = " + id + "  name=ans" + i + "> <br/> <br/>");
         document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font> ");
-        document.write("<input id=ans" + i + "  name=ans" + i + "> <br/> <br/>");
+        document.write(" < input id = " + id + "  name = ans" + i + " > <br/> <br/>");
     }
     document.write("</form>");
     document.write("<br/>");
@@ -90,7 +91,7 @@ function btnL() {
     for (i = 0; i < QMax; i++) {//getitem
         console.log("ans" + i);
         console.log(aList[i]);
-        aList[i] = parseInt(document.getElementById("ans" + i).value);
+        aList[i] = parseInt(document.getElementById("ans"+i).value);
         if (aList[i] == null) { console.log("읽기실패" + i); }
         console.log("res ans" + i);
         console.log(aList[i]);
