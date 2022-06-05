@@ -91,9 +91,9 @@ function btnL() {
     var fm = document.getElementById("QNAFORM");
     console.log(fm);
     console.log(fm.childElementCount);
-    console.log(fm.childNodes[0]);
+    console.log(fm.childNodes[3]);
     console.log(fm.childElementCount);
-    console.log(fm.childNodes.getElementById("pw2"));
+    console.log(fm.childNodes[6]);
     console.log(fm.childElementCount);
     for (i = 0; i < QMax; i++) {//getitem
         var ct = null;
