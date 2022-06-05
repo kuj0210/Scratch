@@ -13,7 +13,7 @@ function makeNewRandNum(numList, num){
 
 }
 
-function makeQuiz(randNumList, len ,quizString){
+function makeQuiz(randNumList, len ,quizStringList,ansList){
     var j=0;
     var temp1="";
     var temp2="";
@@ -22,7 +22,7 @@ function makeQuiz(randNumList, len ,quizString){
         if(randNumList[i]>0){ temp1="(+"+randNumList[i].toString()+")";}else{ temp1="("+randNumList[i].toString()+")";}
         if(randNumList[i+1]>0){ temp2="(+"+randNumList[i+1].toString()+")";}else{ temp2="("+randNumList[i+1].toString()+")";}
 
-        quizString[j]= "Q "+temp1.toString() + " + "+temp2.toString()+"  = ?";
+        quizStringList[j]= "Q "+temp1.toString() + " + "+temp2.toString()+"  = ?";
         j++
     }
 
@@ -36,13 +36,13 @@ for(var i=0 ; i<10; i++)
     console.log(myNum[i]);
 */
 
-quizString = new Array();
-new makeQuiz(myNum,10, quizString);
+quizStringList = new Array();
+new makeQuiz(myNum,10, quizStringList);
 
 /*
 console.log("지문확인");
 for(var i=0 ; i<5; i++)
-    console.log(quizString[i]);
+    console.log(quizStringList[i]);
 */
 
 
@@ -50,6 +50,24 @@ Q= new Array();
 for(var i=0 ; i<5; i++){
     var key ="l"+(i+1).toString(); 
     Q[i] = document.getElementById(key);
-    Q[i].innerText= quizString[i];
+    Q[i].innerText= quizStringList[i];
 }
+
+function gradBtn(){
+    var A=new Array();
+    var temp;
+    for(var i=0 ; i<5; i++){
+        var key ="A"+(i+1).toString(); 
+        temp= document.getElementById(key);
+        A[i]=temp.value;
+        console.log(A[i]);
+    }
+    console.log("처리끝");
+    document.getElementById("btn").remove();
+  
+    
+}
+
+var btn = document.getElementById("btn");
+btn.addEventListener('click',gradBtn);
 
