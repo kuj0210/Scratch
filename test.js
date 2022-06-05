@@ -89,11 +89,11 @@ function btnL() {
     //console.log("버튼클릭이벤트발생");
     for (i = 0; i < QMax; i++) {//getitem
         console.log("ans" + i);
-        console.log(aList[i] + i);
+        console.log(aList[i]);
         aList[i] = parseInt(document.getElementById("ans" + i).value);
         if (aList[i] == null) { console.log("읽기실패" + i); }
         console.log("res ans" + i);
-        console.log(aList[i] + i);
+        console.log(aList[i]);
 
         document.write((i + 1) + "번 답:" + aList[i]);
         if (aList[i] == tans[i]) {
