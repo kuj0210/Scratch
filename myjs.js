@@ -71,9 +71,11 @@ obj.onclick = function (){
         
     }
     console.log("처리끝");
+    document.body.remove();
+    document.write("점수");
     
 };
- 
+
 var fm= document.getElementById("QNA");
 fm.appendChild(obj);
 
