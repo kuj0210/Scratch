@@ -68,6 +68,6 @@ btn.addEventListener('click',function (){
     console.log("처리끝");
     document.getElementById("btn").remove();
   
-    
+
 });
 
