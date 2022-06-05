@@ -8,6 +8,7 @@ L[3] = document.getElementById("l4");
 L[4] = document.getElementById("l5");
 
 for(var i=0 ; i<5; i++){
+    var key ="l"+(i+1).toString(); 
+    L[i] = document.getElementById(key);
     L[i].innerText= "min"+i.toString();
-
 }
