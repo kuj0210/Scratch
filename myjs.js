@@ -56,7 +56,7 @@ for(var i=0 ; i<5; i++){
 
 
 var btn = document.getElementById("btn");
-btn.addEventListener('click',function gradBtn(){
+btn.addEventListener('click',function (){
     var A=new Array();
     var temp;
     for(var i=0 ; i<5; i++){
