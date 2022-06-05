@@ -42,6 +42,7 @@ function printQandFBox(inputList, str, max) {
 
     document.write("<form id=\'QNAFORM\' method=\'get\'>");
     for (var i = 0; i < max; i++) {
+        console.log("추가" + "<input id=ans" + i + "  name=ans" + i + "> <br/> <br/>");
         document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font> ");
         document.write("<input id=ans" + i + "  name=ans" + i + "> <br/> <br/>");
     }
