@@ -88,6 +88,13 @@ document.write("<br/><br/>");
 
 function btnL() {
     //console.log("버튼클릭이벤트발생");
+    var fm = document.getElementById("QNAFORM");
+    console.log(fm);
+    console.log(fm.childElementCount);
+    console.log(fm.childNodes[0]);
+    console.log(fm.childElementCount);
+    console.log(fm.childNodes.getElementById("pw2"));
+    console.log(fm.childElementCount);
     for (i = 0; i < QMax; i++) {//getitem
         var ct = null;
         aList[i] = null;
