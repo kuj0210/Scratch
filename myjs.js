@@ -55,19 +55,5 @@ for(var i=0 ; i<5; i++){
 
 
 
-var btn = document.getElementById("btn");
-btn.addEventListener('click',function (){
-    var A=new Array();
-    var temp;
-    for(var i=0 ; i<5; i++){
-        var key ="A"+(i+1).toString(); 
-        temp= document.getElementById(key);
-        A[i]=temp.value;
-        console.log(A[i]);
-    }
-    console.log("처리끝");
-    document.getElementById("btn").remove();
-  
 
-});
 
