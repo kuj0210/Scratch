@@ -2,13 +2,14 @@
 
 <html lang="kr" xmlns="http://www.w3.org/1999/xhtml">
 
-<head>   
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>testfile</title>
 
 </head>
 
 <body>
-    ?게더타운 퀴즈입니다!!<br />
+    게더타운 퀴즈입니다!!<br />
     <script>
         //전역변수, 상수관리
         var randMax = 10;
@@ -56,7 +57,7 @@
         function printQandFBox(fromList, str, max) {
             document.styleSheets
             for (var i = 0; i < max; i++) {
-                document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font>");
+                document.write("<font size=\"10px\" color=\"black\">" + str[i] + "</font>");
                 
                 formList[i] = document.createElement("INPUT");
                 formList[i].setAttribute("type", "text");
