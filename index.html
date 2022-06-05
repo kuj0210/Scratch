@@ -10,7 +10,7 @@
 
 <body>
     ?!게더타운 퀴즈입니다!!<br />
-    <script>
+    <script type="text/javascript" >
         //전역변수, 상수관리
         var randMax = 10;
         var QMax = 5;
@@ -55,7 +55,7 @@
             }
         }
         function printQandFBox(fromList, str, max) {
-            document.write("<form id= \"QnA\">");
+          
             for (var i = 0; i < max; i++) {
                 document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font>");
                 
@@ -66,7 +66,7 @@
                 document.body.appendChild(formList[i])//폼등록
                 document.write("<br/><br/>");
             }
-            document.write("</form>");
+           
         }
         function removeALL(formList, sbtn) {
             for (var i = 0; i < QMax; i++) {
@@ -107,8 +107,15 @@
             //alert("버튼클릭이벤트발생");
             for (i = 0; i < QMax; i++) {//getitem
                 console.log("ㅇㅇ" + i);
-                aList[i] = parseInt(document.querySelector("#QnA #ans" + i).value );
+                console.log(aList[i] + i);
+                aList[i] = (document.getElementById("ans" + i));
+                if (aList[i] == null) {
+                    console.log("읽기실패" + i);
+
+                }
                 console.log("ㄴㄴ" + i);
+                console.log(aList[i] + i);
+
                 document.write((i + 1) + "번 답:" + aList[i]);
                 if (aList[i] == tans[i]) {
                     document.write("   정답O<br/>");
