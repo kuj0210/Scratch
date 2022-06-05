@@ -57,7 +57,7 @@
         function printQandFBox(fromList, str, max) {
             document.styleSheets
             for (var i = 0; i < max; i++) {
-                document.write("<font size=\"10px\" color=\"black\">" + str[i] + "</font>");
+                document.write("<font size=\"4rem\" color=\"black\">" + str[i] + "</font>");
                 
                 formList[i] = document.createElement("INPUT");
                 formList[i].setAttribute("type", "text");
@@ -105,7 +105,9 @@
         sbtn.addEventListener("click", function () {
             //alert("버튼클릭이벤트발생");
             for (i = 0; i < QMax; i++) {//getitem
-                aList[i] = parseInt( document.getElementById("ans" + i).value);
+                console.log("ㅇㅇ" + i)
+                aList[i] = parseInt(document.getElementById("ans" + i).value);
+                console.log("ㄴㄴ"+i)
                 document.write((i + 1) + "번 답:" + aList[i]);
                 if (aList[i] == tans[i]) {
                     document.write("   정답O<br/>");
@@ -116,8 +118,9 @@
                 }
             }
             document.write("종합점수: " + tsum + "<br/>");
-            new removeALL(formList, sbtn);
+            
             tsum = 0;
+            new removeALL(formList, sbtn);
         }
         );
 
