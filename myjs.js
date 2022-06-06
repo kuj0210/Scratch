@@ -84,14 +84,16 @@ obj.onclick = function (){
             score+=20;
         }
         else{
-            document.write("   X 오답");
+            document.write("   X 오답 -> 정답:"+ansList[i].toString());
+            
         }
 
         document.write("<br/>"); //학생의 답변적기
 
     }
     
-    document.write("<br/>총점:"+score.toString()); //학생의 답변적기
+    document.write("<br/>총점:"+score.toString()); //총점 공지
+    
 };
 
 var fm= document.getElementById("QNA");
