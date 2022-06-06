@@ -13,7 +13,7 @@ function makeNewRandNum(numList, num){
 
 }
 
-function makeQuiz(randNumList, len ,quizStringList){
+function makeQuiz(randNumList, len ,quizStringList, ansList){
     var j=0;
     var temp1="";
     var temp2="";
@@ -22,7 +22,8 @@ function makeQuiz(randNumList, len ,quizStringList){
         if(randNumList[i]>0){ temp1="(+"+randNumList[i].toString()+")";}else{ temp1="("+randNumList[i].toString()+")";}
         if(randNumList[i+1]>0){ temp2="(+"+randNumList[i+1].toString()+")";}else{ temp2="("+randNumList[i+1].toString()+")";}
 
-        quizStringList[j]= "Q "+temp1.toString() + " + "+temp2.toString()+"  = ?";
+        quizStringList[j]= "Q "+temp1.toString() + " + "+temp2.toString()+"  = ";
+        ansList[j]= randNumList[i]+randNumList[i+1];
         j++
     }
 
@@ -37,7 +38,8 @@ for(var i=0 ; i<10; i++)
 */
 
 quizStringList = new Array();
-new makeQuiz(myNum,10, quizStringList);
+var ansList=new Array();
+new makeQuiz(myNum,10, quizStringList,ansList);
 
 /*
 console.log("지문확인");
@@ -59,10 +61,12 @@ var obj = document.createElement("input");
 obj.type ="button";
 obj.id ="mbtn";
 obj.value="제출"
+
 obj.onclick = function (){
     console.log("처리시작");
     var A=new Array();
     var temp;
+    var score =0;
     for(var i=0 ; i<5; i++){
         var key ="A"+(i+1).toString(); 
         temp= document.getElementById(key);
@@ -72,8 +76,22 @@ obj.onclick = function (){
     }
     console.log("처리끝");
     document.body.remove();
-    document.write("점수");
+    for(var i=0; i<5; i++){
+        document.write(quizStringList[i]); //지문찍기
+        document.write(A[i]); //학생의 답변적기
+        if( parseInt(A[i])==ansList[i] ){
+            document.write("   O 정답");
+            score+=20;
+        }
+        else{
+            document.write("   X 오답");
+        }
+
+        document.write("<br/>"); //학생의 답변적기
+
+    }
     
+    document.write("<br/>총점:"+score.toString()); //학생의 답변적기
 };
 
 var fm= document.getElementById("QNA");
