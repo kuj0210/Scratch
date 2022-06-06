@@ -1,4 +1,5 @@
 
+
 function makeNewRandNum(numList, num){
     if(numList==null){ console.error("makeNewRandNum에서 비어있는 매게변수를 받았습니다.");}
     for(var i=0; i<num; i++){
@@ -29,18 +30,7 @@ function makeQuiz(randNumList, len ,quizStringList, ansList){
 
 }
 
-function request() {
-    fetch('https://github.com/kuj0210/myproject/blob/master/key.txt', {
-      method: 'GET',
-    })
-    .then(response => {
-      return response.json();
-    })
-    .then(data => {
-      console.log(data);
-    });
-  }
-  request();
+
 
 
 
@@ -116,6 +106,15 @@ obj.onclick = function (){
     
     document.write("<br/>총점:"+score.toString()); //총점 공지
     document.write("<br/>");
+    if(score>=80){
+
+        document.write("비밀번호공개<br/>");
+        var src= "<iframe src=\'./key"+".txt\' width=\'400\' heigth=\'300\'></iframe> ";
+        document.write(src);
+
+    }
+
+
 
 };
 
