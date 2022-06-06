@@ -29,6 +29,24 @@ function makeQuiz(randNumList, len ,quizStringList, ansList){
 
 }
 
+function request() {
+    fetch('https://github.com/kuj0210/myproject/blob/master/key.txt', {
+      method: 'GET',
+    })
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      console.log(data);
+    });
+  }
+  request();
+
+
+
+
+
+
 myNum = new Array();
 new makeNewRandNum(myNum,10);
 /*
@@ -62,6 +80,8 @@ obj.type ="button";
 obj.id ="mbtn";
 obj.value="제출"
 
+
+
 obj.onclick = function (){
     console.log("처리시작");
     var A=new Array();
@@ -89,11 +109,14 @@ obj.onclick = function (){
         }
 
         document.write("<br/>"); //학생의 답변적기
+    };
 
-    }
+
+    
     
     document.write("<br/>총점:"+score.toString()); //총점 공지
-    
+    document.write("<br/>");
+
 };
 
 var fm= document.getElementById("QNA");
