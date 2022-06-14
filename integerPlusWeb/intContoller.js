@@ -55,7 +55,7 @@ myNum = new Array();
 new makeNewRandNum(myNum,Qnum*2);
 
 console.log("난수확인");
-for(var i=0 ; i<10; i++)
+for(var i=0 ; i<Qnum*2; i++)
     console.log(myNum[i]);
 
 
@@ -65,7 +65,7 @@ new makeQuiz(myNum,Qnum*2, quizStringList,ansList);
 
 
 console.log("지문확인");
-for(var i=0 ; i<5; i++)
+for(var i=0 ; i<Qnum; i++)
     console.log(quizStringList[i]);
 
 
