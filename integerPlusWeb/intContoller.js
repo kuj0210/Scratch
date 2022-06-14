@@ -63,11 +63,11 @@ quizStringList = new Array();
 var ansList=new Array();
 new makeQuiz(myNum,Qnum*2, quizStringList,ansList);
 
-/*
+
 console.log("지문확인");
 for(var i=0 ; i<5; i++)
     console.log(quizStringList[i]);
-*/
+
 
 
 Q= new Array();
@@ -87,7 +87,7 @@ obj.value="제출"
 
 
 obj.onclick = function (){
-    //console.log("처리시작");
+    console.log("버튼클릭 처리시작");
     var A=new Array();
     var temp;
     var score =0;
