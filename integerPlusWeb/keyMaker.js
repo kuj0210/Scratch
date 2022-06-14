@@ -14,20 +14,19 @@ while(true){
         i++;
             
     }
-    if(i>=2) break; //2개 생성했다면 out
+    if(i>=3) break; //3개 생성했다면 out
 }
 console.log(opener[0]);
 console.log(opener[1]);
 
 for(i=0; i< len ; i++){
-    console.log("i번째: "+i);
     if(opener.indexOf(i)==-1){
-        console.log("비공개");
+        //console.log("비공개");
         str = "( ? )"
         document.write(str);
     }
     else{
-        console.log("공개");
+        //console.log("공개");
         str = "( "+key[i]+" )";
         document.write(str);
 
