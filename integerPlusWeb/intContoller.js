@@ -53,11 +53,11 @@ Qnum = 10;
 
 myNum = new Array();
 new makeNewRandNum(myNum,Qnum*2);
-
+/*
 console.log("난수확인");
 for(var i=0 ; i<Qnum*2; i++)
     console.log(myNum[i]);
-
+*/
 
 quizStringList = new Array();
 var ansList=new Array();
