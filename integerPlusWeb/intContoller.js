@@ -1,15 +1,31 @@
 function makeNewRandNum(numList, num){
-    if(numList==null){ console.error("makeNewRandNum에서 비어있는 매게변수를 받았습니다.");}
-    for(var i=0; i<num; i++){
-        var flag = Math.floor(Math.random() * 20);
+  
+    //console.log("요청받은 정수쌍:",num);
+
+    if(numList==null){ 
+        console.error("makeNewRandNum에서 비어있는 매게변수를 받았습니다.");}
+    for(var i=0; i<num; i+=2){
+        var flag =Math.floor(Math.random() * 20);
+
         //console.log("플래그값:"+flag.toString());
-        numList[i]= Math.floor(Math.random() * 20)+1;
-        if(flag%2==1){
-            //console.log(i.toString()+"번째에서 음수생성");
+        numList[i]= Math.floor(Math.random() * 20)+1;//1번(0,1) 2번(2,3) 양수덧셈
+        numList[i+1]= Math.floor(Math.random() * 20)+1;//1번(0,1) 2번(2,3) 양수덧셈
+
+        if(i>=4 && i<=7){//2번문제(4,5) 3번문제(6,7)-> 음수 덧셈
             numList[i]*=(-1);
+            numList[i+1]*=(-1);
+        }
+
+        if(i>=8 && flag%2==1){
+            numList[i]*=(-1);
+        }else if(i>=8 && flag%2==0){
+            numList[i+1]*=(-1);
+
         }
     }
 
+    
+    
 }
 
 function makeQuiz(randNumList, len ,quizStringList, ansList){
@@ -33,10 +49,10 @@ function makeQuiz(randNumList, len ,quizStringList, ansList){
 
 
 
-
+Qnum = 10;
 
 myNum = new Array();
-new makeNewRandNum(myNum,10);
+new makeNewRandNum(myNum,Qnum*2);
 /*
 console.log("난수확인");
 for(var i=0 ; i<10; i++)
@@ -45,7 +61,7 @@ for(var i=0 ; i<10; i++)
 
 quizStringList = new Array();
 var ansList=new Array();
-new makeQuiz(myNum,10, quizStringList,ansList);
+new makeQuiz(myNum,Qnum*2, quizStringList,ansList);
 
 /*
 console.log("지문확인");
@@ -55,7 +71,7 @@ for(var i=0 ; i<5; i++)
 
 
 Q= new Array();
-for(var i=0 ; i<5; i++){
+for(var i=0 ; i<Qnum; i++){
     var key ="l"+(i+1).toString(); 
     Q[i] = document.getElementById(key);
     Q[i].innerText= quizStringList[i];
@@ -75,7 +91,7 @@ obj.onclick = function (){
     var A=new Array();
     var temp;
     var score =0;
-    for(var i=0 ; i<5; i++){
+    for(var i=0 ; i<Qnum; i++){
         var key ="A"+(i+1).toString(); 
         temp= document.getElementById(key);
         A[i]=temp.value;
@@ -84,12 +100,12 @@ obj.onclick = function (){
     }
     //console.log("처리끝");
     document.body.remove();
-    for(var i=0; i<5; i++){
+    for(var i=0; i<Qnum; i++){
         document.write(quizStringList[i]); //지문찍기
         document.write(A[i]); //학생의 답변적기
         if( parseInt(A[i])==ansList[i] ){
             document.write("   O 정답");
-            score+=20;
+            score+=100/Qnum;
         }
         else{
             document.write("   X 오답 -> 정답:"+ansList[i].toString());
