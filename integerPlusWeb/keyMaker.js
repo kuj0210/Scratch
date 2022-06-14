@@ -16,8 +16,7 @@ while(true){
     }
     if(i>=3) break; //3개 생성했다면 out
 }
-console.log(opener[0]);
-console.log(opener[1]);
+
 
 for(i=0; i< len ; i++){
     if(opener.indexOf(i)==-1){
