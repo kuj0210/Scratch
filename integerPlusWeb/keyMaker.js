@@ -1,4 +1,4 @@
-num= "586723";
+num= "375412";
 key = Array.from(num);
 len = key.length;
 opener = new Array();
